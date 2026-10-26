@@ -1,0 +1,122 @@
+Installing virtualenv
+pip install virtualenv
+
+Test your installation
+virtualenv --version
+
+create a virtualenv 
+virtualenv venv
+
+activate it
+venv\Scripts\activate
+(set-executionpolicy remotesigned)
+
+deactivate the virtual environment
+deactivate
+
+===================================
+
+Conda environment
+
+cd "C:\ProjectWork\PROJECT_LOGISTIC"
+conda create -n logistic_venv python=3.14
+conda activate logistic_venv
+
+===================================
+
+UV environment
+
+pip install uv
+
+
+uv venv logistic_venv
+OR
+uv venv logistic_venv --python 3.14
+
+Creating virtual environment at: logistic_venv
+Activate with: logistic_venv\Scripts\activate
+
+uv pip install -r requirements.txt
+
+
+
+
+
+New project:
+
+uv init PROJECT_NAME && cd PROJECT_NAME
+uv add fastapi uvicorn
+uv run uvicorn main:app --reload
+
+Use as pip in CI:
+
+uv pip install --system -r requirements.txt
+
+Reproducible envs:
+
+uv sync --frozen    # use exact lockfile, don't update
+
+
+
+Key Features
+1. Package Management (pip replacement)
+
+uv pip install requests
+uv pip install -r requirements.txt
+uv pip compile requirements.in -o requirements.txt
+uv pip sync requirements.txt
+
+2. Project Management (Poetry-like)
+
+uv init myproject          # create a new project
+cd myproject
+uv add requests            # add a dependency
+uv add --dev pytest        # dev dependency
+uv remove requests
+uv sync                    # install from lockfile
+uv lock                    # regenerate uv.lock
+uv run python main.py      # run inside project env
+
+3. Python Version Management (pyenv-like)
+
+uv python install 3.12
+uv python list
+uv python pin 3.11
+
+4. Tool Running (pipx-like)
+
+uvx ruff check .           # run a tool without installing
+uv tool install ruff
+uv tool list
+uvx is shorthand for uv tool run.
+
+5. Inline Script Dependencies (PEP 723)
+python
+# /// script
+# dependencies = ["requests"]
+# ///
+import requests
+print(requests.get("https://example.com").status_code)
+
+Run with:
+
+uv run script.py
+
+6. Virtual Environments
+
+uv venv                    # create .venv
+uv venv --python 3.12
+
+Project File: pyproject.toml
+UV uses standard pyproject.toml with a [project] table:
+
+[project]
+name = "myproject"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31"]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+Plus a uv.lock file (auto-generated, commit it to version control).
