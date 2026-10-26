@@ -1,0 +1,11 @@
+id,name,city,state,lat,lon
+1,WH-Mumbai,Mumbai,Maharashtra,19.076,72.8777
+2,WH-Delhi,Delhi,Delhi,28.7041,77.1025
+3,WH-Bengaluru,Bengaluru,Karnataka,12.9716,77.5946
+4,WH-Chennai,Chennai,Tamil Nadu,13.0827,80.2707
+5,WH-Kolkata,Kolkata,West Bengal,22.5726,88.3639
+6,WH-Hyderabad,Hyderabad,Telangana,17.385,78.4867
+7,WH-Pune,Pune,Maharashtra,18.5204,73.8567
+8,WH-Ahmedabad,Ahmedabad,Gujarat,23.0225,72.5714
+9,WH-Jaipur,Jaipur,Rajasthan,26.9124,75.7873
+10,WH-Lucknow,Lucknow,Uttar Pradesh,26.8467,80.9462

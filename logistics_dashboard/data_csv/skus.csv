@@ -1,0 +1,101 @@
+id,sku_code,name,category,unit_cost,lead_time_days,is_active
+1,SKU-1001,Wireless Earbuds (Ele-1),Electronics,1403.88,3,1
+2,SKU-1002,USB-C Cable (Ele-2),Electronics,3220.08,3,1
+3,SKU-1003,Power Bank (Ele-3),Electronics,2963.24,10,1
+4,SKU-1004,Bluetooth Speaker (Ele-4),Electronics,553.73,14,1
+5,SKU-1005,Smart Watch (Ele-5),Electronics,1356.29,14,1
+6,SKU-1006,Webcam HD (Ele-6),Electronics,2607.54,10,1
+7,SKU-1007,Keyboard Mechanical (Ele-7),Electronics,2215.24,14,1
+8,SKU-1008,Mouse Wireless (Ele-8),Electronics,1330.77,14,1
+9,SKU-1009,HDMI Adapter (Ele-9),Electronics,1696.18,14,1
+10,SKU-1010,Phone Case (Ele-10),Electronics,2176.38,10,1
+11,SKU-1011,Wireless Earbuds (Ele-11),Electronics,613.17,7,1
+12,SKU-1012,USB-C Cable (Ele-12),Electronics,2406.1,3,1
+13,SKU-1013,Power Bank (Ele-13),Electronics,3316.01,5,1
+14,SKU-1014,Bluetooth Speaker (Ele-14),Electronics,1633.48,5,1
+15,SKU-1015,Smart Watch (Ele-15),Electronics,2939.77,5,1
+16,SKU-1016,Webcam HD (Ele-16),Electronics,867.85,7,1
+17,SKU-1017,Keyboard Mechanical (Ele-17),Electronics,1273.99,14,1
+18,SKU-1018,Mouse Wireless (Ele-18),Electronics,3345.69,14,1
+19,SKU-1019,HDMI Adapter (Ele-19),Electronics,1616.37,5,1
+20,SKU-1020,Phone Case (Ele-20),Electronics,1765.94,7,1
+21,SKU-1021,Basmati Rice 5kg (Gro-1),Grocery,100.47,14,1
+22,SKU-1022,Sunflower Oil 1L (Gro-2),Grocery,145.64,3,1
+23,SKU-1023,Wheat Flour 10kg (Gro-3),Grocery,684.72,5,1
+24,SKU-1024,Toor Dal 1kg (Gro-4),Grocery,494.3,3,1
+25,SKU-1025,Tea Powder 500g (Gro-5),Grocery,264.56,14,1
+26,SKU-1026,Sugar 5kg (Gro-6),Grocery,231.82,10,1
+27,SKU-1027,Salt 1kg (Gro-7),Grocery,235.0,7,1
+28,SKU-1028,Coffee Instant 200g (Gro-8),Grocery,206.53,7,1
+29,SKU-1029,Biscuits Pack (Gro-9),Grocery,353.59,14,1
+30,SKU-1030,Masala Mix (Gro-10),Grocery,564.83,3,1
+31,SKU-1031,Basmati Rice 5kg (Gro-11),Grocery,712.78,7,1
+32,SKU-1032,Sunflower Oil 1L (Gro-12),Grocery,853.7,5,1
+33,SKU-1033,Wheat Flour 10kg (Gro-13),Grocery,149.25,14,1
+34,SKU-1034,Toor Dal 1kg (Gro-14),Grocery,605.25,3,1
+35,SKU-1035,Tea Powder 500g (Gro-15),Grocery,842.92,7,1
+36,SKU-1036,Sugar 5kg (Gro-16),Grocery,471.0,3,1
+37,SKU-1037,Salt 1kg (Gro-17),Grocery,344.25,14,1
+38,SKU-1038,Coffee Instant 200g (Gro-18),Grocery,170.58,5,1
+39,SKU-1039,Biscuits Pack (Gro-19),Grocery,447.2,14,1
+40,SKU-1040,Masala Mix (Gro-20),Grocery,707.78,3,1
+41,SKU-1041,Cotton T-Shirt (App-1),Apparel,1427.99,14,1
+42,SKU-1042,Denim Jeans (App-2),Apparel,679.64,5,1
+43,SKU-1043,Sports Shoes (App-3),Apparel,1710.38,10,1
+44,SKU-1044,Formal Shirt (App-4),Apparel,935.28,7,1
+45,SKU-1045,Winter Jacket (App-5),Apparel,489.39,5,1
+46,SKU-1046,Sports Socks (App-6),Apparel,1726.38,5,1
+47,SKU-1047,Cap (App-7),Apparel,1049.19,7,1
+48,SKU-1048,Leather Belt (App-8),Apparel,932.71,14,1
+49,SKU-1049,Silk Scarf (App-9),Apparel,1673.75,7,1
+50,SKU-1050,Raincoat (App-10),Apparel,669.19,7,1
+51,SKU-1051,Cotton T-Shirt (App-11),Apparel,1047.91,5,1
+52,SKU-1052,Denim Jeans (App-12),Apparel,1704.44,5,1
+53,SKU-1053,Sports Shoes (App-13),Apparel,953.35,7,1
+54,SKU-1054,Formal Shirt (App-14),Apparel,1349.78,5,1
+55,SKU-1055,Winter Jacket (App-15),Apparel,722.76,5,1
+56,SKU-1056,Sports Socks (App-16),Apparel,1791.47,5,1
+57,SKU-1057,Cap (App-17),Apparel,942.94,14,1
+58,SKU-1058,Leather Belt (App-18),Apparel,1035.36,5,1
+59,SKU-1059,Silk Scarf (App-19),Apparel,334.3,7,1
+60,SKU-1060,Raincoat (App-20),Apparel,1281.1,14,1
+61,SKU-1061,Detergent 2kg (Hom-1),Home Care,161.92,7,1
+62,SKU-1062,Dish Soap 500ml (Hom-2),Home Care,582.15,3,1
+63,SKU-1063,Floor Cleaner 1L (Hom-3),Home Care,421.13,3,1
+64,SKU-1064,Glass Cleaner (Hom-4),Home Care,101.67,5,1
+65,SKU-1065,Toilet Cleaner (Hom-5),Home Care,160.73,14,1
+66,SKU-1066,Air Freshener (Hom-6),Home Care,157.72,3,1
+67,SKU-1067,Mop Set (Hom-7),Home Care,303.21,14,1
+68,SKU-1068,Broom (Hom-8),Home Care,88.36,5,1
+69,SKU-1069,Trash Bags 30ct (Hom-9),Home Care,578.95,3,1
+70,SKU-1070,Aluminum Foil (Hom-10),Home Care,334.43,14,1
+71,SKU-1071,Detergent 2kg (Hom-11),Home Care,467.78,7,1
+72,SKU-1072,Dish Soap 500ml (Hom-12),Home Care,417.96,3,1
+73,SKU-1073,Floor Cleaner 1L (Hom-13),Home Care,400.83,5,1
+74,SKU-1074,Glass Cleaner (Hom-14),Home Care,403.0,10,1
+75,SKU-1075,Toilet Cleaner (Hom-15),Home Care,431.37,10,1
+76,SKU-1076,Air Freshener (Hom-16),Home Care,365.52,10,1
+77,SKU-1077,Mop Set (Hom-17),Home Care,583.42,5,1
+78,SKU-1078,Broom (Hom-18),Home Care,126.96,7,1
+79,SKU-1079,Trash Bags 30ct (Hom-19),Home Care,541.17,10,1
+80,SKU-1080,Aluminum Foil (Hom-20),Home Care,434.43,10,1
+81,SKU-1081,Shampoo 400ml (Per-1),Personal Care,540.47,3,1
+82,SKU-1082,Toothpaste 200g (Per-2),Personal Care,222.06,10,1
+83,SKU-1083,Body Lotion 400ml (Per-3),Personal Care,236.1,3,1
+84,SKU-1084,Face Wash (Per-4),Personal Care,681.46,7,1
+85,SKU-1085,Deodorant (Per-5),Personal Care,579.66,14,1
+86,SKU-1086,Razor Pack (Per-6),Personal Care,348.55,7,1
+87,SKU-1087,Soap Bar (Per-7),Personal Care,325.51,7,1
+88,SKU-1088,Sunscreen SPF50 (Per-8),Personal Care,252.54,10,1
+89,SKU-1089,Hair Oil 200ml (Per-9),Personal Care,579.57,10,1
+90,SKU-1090,Hand Sanitizer (Per-10),Personal Care,183.14,7,1
+91,SKU-1091,Shampoo 400ml (Per-11),Personal Care,189.37,10,1
+92,SKU-1092,Toothpaste 200g (Per-12),Personal Care,541.35,14,1
+93,SKU-1093,Body Lotion 400ml (Per-13),Personal Care,612.23,7,1
+94,SKU-1094,Face Wash (Per-14),Personal Care,259.69,3,1
+95,SKU-1095,Deodorant (Per-15),Personal Care,679.7,3,1
+96,SKU-1096,Razor Pack (Per-16),Personal Care,682.23,3,1
+97,SKU-1097,Soap Bar (Per-17),Personal Care,588.25,10,1
+98,SKU-1098,Sunscreen SPF50 (Per-18),Personal Care,424.4,7,1
+99,SKU-1099,Hair Oil 200ml (Per-19),Personal Care,548.86,7,1
+100,SKU-1100,Hand Sanitizer (Per-20),Personal Care,444.68,7,1

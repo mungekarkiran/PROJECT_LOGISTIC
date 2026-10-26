@@ -1,0 +1,7 @@
+id,name,reliability_score,base_rate_per_km
+1,BlueDart Express,0.93,12.5
+2,Delhivery,0.89,10.0
+3,DTDC,0.85,9.5
+4,Ekart Logistics,0.9,11.0
+5,XpressBees,0.87,10.5
+6,Gati KWE,0.82,8.5
